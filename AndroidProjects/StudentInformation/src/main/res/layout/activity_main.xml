@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#D437DF"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="This is Student Information"
+        />
+
+    <EditText
+        android:id="@+id/name_id"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Name"
+        android:maxLength="25"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/email_id"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/cgpa_id"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="4"
+        android:hint="CGPA"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textAllCaps="false"
+        android:background="#BEDA9E"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView_id"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
