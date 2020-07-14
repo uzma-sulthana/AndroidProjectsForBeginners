@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21222c</color>
+    <color name="colorPrimaryDark">#21222c</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- Blue style qradient-->
+    <color name="bluestartcolor">#47f9fe</color>
+    <color name="blueendcolor">#1295fd</color>
+    <!-- Orange style qradient-->
+    <color name="orangestartcolor">#feed64</color>
+    <color name="orangeendcolor">#dda660</color>
+    <!-- Pink style qradient-->
+    <color name="pinkstartcolor">#FD75A5</color>
+    <color name="pinkendcolor">#ea1e77</color>
+    <!-- purple style qradient-->
+    <color name="purplestartcolor">#f75fe1</color>
+    <color name="purpleeendcolor">#c425ec</color>
+    <!-- Green style qradient-->
+    <color name="greenstartcolor">#b4fa51</color>
+    <color name="greenendcolor">#78cb29</color>
+
+</resources>
